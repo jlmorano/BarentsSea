@@ -1,0 +1,43 @@
+---
+title: "IMR Acoustic Survey Data"
+author: "Janelle Morano"
+date: "2/17/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## IMR Acoustic Survey Data
+
+Acoustic survey data from Norwegian Institute of Marine Science in the Barents Sea, 2004-2013.
+
+polar_cod
+herring  
+capelin
+saithe
+redfish
+haddock_cod
+haddock
+cod
+blue_whiting
+Norway_pout
+other
+plankton
+zero_group_fish
+total
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
